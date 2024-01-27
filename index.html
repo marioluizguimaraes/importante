@@ -4,76 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pedido de Namoro</title>
-    <style>
-        body { 
-            color           : #111111;
-            height          : 100vh;
-            margin          : 0;
-            padding         : 10px;
-            display         : flex;
-            font-family     : 'Arial', sans-serif;
-            align-items     : center;
-            justify-content : center;
-            background-color: #FFB6C1;     
-        }
-
-        #proposal-box { 
-            width           : 90%; 
-            padding         : 20px; 
-            max-width       : 400px; 
-            text-align      : center;
-            box-shadow      : 0 4px 8px rgba(0, 0, 0, 0.1);
-            border-radius   : 10px;
-            background-color: white;
-        }
-
-        #heart {
-            width           : 100px;
-            height          : 100px;
-            margin          : 20px auto;
-            display         : block;
-        }
-
-        #question1, #question2 {
-            font-size       : 1.5rem;
-            margin-bottom   : 20px;
-        }
-
-        #buttons {
-            display         : flex;
-            justify-content : space-around;
-        }
-
-        .button {
-            cursor          : pointer;
-            border          : none;
-            padding         : 10px 20px;
-            font-size       : 1rem;
-            transition      : background-color 0.3s;
-            border-radius   : 5px;
-            
-        }
-
-        #accept-btn {
-            background-color: #32CD32; 
-        }
-
-        #reject-btn {
-            background-color: #FF6347; 
-        }
-
-        #video-container {
-            display     : none; 
-            overflow    : hidden;
-            position    : relative;
-            max-width   : 100%;
-        }
-
-        #youtube-video {
-            width       : 100%;
-            height      : 100%;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -117,7 +48,6 @@
             videoContainer.style.display = 'block';
             videoContainer.style.width = '300px';
             videoContainer.style.height = '200px';
-
         }
         
     </script>
